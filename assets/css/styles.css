@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(33, 37, 41);
+}
+
+.container {
+    max-width: 600px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: rgb(107, 117, 125);
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.convert-btn {
+    width: 40%;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(12, 202, 240);
+    color: white;
+    font-weight: bold;
+}
+
+.conversion-result {
+    padding: 2rem;
+    font-weight: 700;
+}
+
+.chart-container {
+    margin-top: 0.5rem;
+    background-color: rgb(183, 184, 185);
+}
